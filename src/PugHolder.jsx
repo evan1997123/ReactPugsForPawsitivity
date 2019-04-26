@@ -12,7 +12,7 @@ class PugHolder extends React.Component {
         quotes: ["Pugs and kisses!", "You're tougher than your ruff day.", "Don't let the bad days dog you!",
       "Keep your head pup!", "You're pawsitively pawesome.", "Fur-get about your bad day!", "Paws and take a moment for yourself.",
     "You look fetching today!", "Pet yourself on the back; you're doing great!", "You're just so doggone wonderful!"]
-      }
+      } //I know I can get quotes through and API, but I wanted my own personal Dog Puns
       this.updatePugs = this.updatePugs.bind(this);
       this.getDogs = this.getDogs.bind(this);
     }

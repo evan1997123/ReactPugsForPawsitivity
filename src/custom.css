@@ -1,6 +1,6 @@
 .title { color: #f7ffff; font-family: "Lobster", serif; font-size: 120px; line-height: 160px;
-     font-weight: normal; margin-bottom: 30px; margin-top: 40px; text-align: center; display:flex;
-     width: 100%; justify-content: center;}
+     font-weight: normal; margin-bottom: 30px; margin-top: 40px; text-align: center; }
+     
 .cards {
     text-align: center;
     display:flex;
@@ -17,9 +17,6 @@
 }
 .subtext {
     font-family: 'Kalam'; font-size: 50px; text-align: center; color: #535e5e; margin-bottom: 10px;
-    display:flex;
-    width: 100%;
-    justify-content: center;
 }
 
 html { 
