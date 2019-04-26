@@ -60,7 +60,7 @@ class PugHolder extends React.Component {
 
           <div className="subtext">
           Made By: Evan Sum <br/>
-          Click each pug to follow it home or hover over any pug to see a message
+          Click each pug to follow it home or hover over any pug if you are on a computer to see a message
           </div>
             {this.state.currentList.map((pugURL,i) => (
             <PugCard pugURL={pugURL} key={i} number={i} hoverText={this.state.quotes[i]}/>))}
